@@ -36,7 +36,7 @@ describe('Game', function() {
 
   it('should be able to create cards', () => {
     game.createCards()
-    console.log('<<>>', game)
+
     expect(game.deck.cards[0].id).to.equal(1);
   });
 

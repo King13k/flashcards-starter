@@ -1,71 +1,62 @@
-# FlashCards Starter Kit
+# [FlashCards](https://github.com/KATIETOLER/flashcards)
+___
+### A Project By [Kevin King](https://github.com/King13k)
+* *Project Manager [Heather](https://github.com/hfaerber)*
 
-## Fork This Repo
+##### *Technologies Used*
+  * Javascript
 
-On the top right corner of this page, click the **Fork** button.
+## Overview
+Play a game in your terminal. The game is multiple choice. After you have completed all the questions you will receive a percentage of correct answers.
 
-## Setup
+## How to Play the Game
+#### [Repository](https://github.com/King13k/flashcards-starter)
 
-Clone down the forked repo (from your GitHub). Since you don't want to name your project "flashcards-starter", you can use an optional argument when you run `git clone` (you replace the `[...]` with the terminal command arguments):
+`clone` the repository linked above.
 
-```bash
-git clone [remote-address] [what you want to name the repo]
-```
+`cd` into the repository.
 
-Once you have cloned the repo, change into the directory and install the library dependencies. Run:
-
-```bash
-npm install
-```
-
-To verify that it is setup correctly, run `npm test` in your terminal. You should have 5 pending tests in your `Card` test file that show up.
-
-Running `node index.js` from the root of your project should result in the following message being displayed in your terminal: 
-
-```bash
-Your project is running...
-```
-
-*Note that you will not need to you run your server until you are instantiating your `Game` class in Iteration 3. Prior to that, you should be using TDD to drive your code. You should check the functionality of your application by running your tests via `npm test`.*
-
-
-## Where to Add Your Code
-
-### JavaScript
-
-**Create all of your feature code files in the `src` directory.**
-
-We will be using the `module.exports` and `require` syntax to share code across files.
-
-## How to View Your Code in Action
-
-Once you are working through Iteration 3, you will want to start your server to test your functionality.
-In the terminal, run:
+Run this command in your terminal:
 
 ```bash
 node index.js
 ```
 
+## Learning Goals and Objectives
+
+* Contribute code to an partially constructed  object-oriented application
+* Follow spec/prompts to make a working application
+* Implement ES6 classes
+* Write modular, reusable code that follows SRP (Single Responsibility Principle)
+* Implement a robust testing suite using TDD
+
+## Personal Learning Goals
+
+* Better understanding of what the Spec sheet is asking me
+* Knowing when to ask for help
+* Developing/Working on my problem solving processes
+
+### Site Examples
+
 When the game is functioning appropriately, you will be prompted for each question, have the opportunity to select an answer, and will be given feedback. You will be able to play through the entire deck of cards:
 
-![flash cards example gif](https://media.giphy.com/media/1zkb1q58eTiTH6D7wc/giphy.gif)
+![Flash cards example gif](https://media.giphy.com/media/1zkb1q58eTiTH6D7wc/giphy.gif)
 
----
+![Game play example](https://media1.giphy.com/media/MyjnDynuFOf5Y6vGVY/giphy.gif)
 
-## Test Files Organization
+![Completed game example](https://media3.giphy.com/media/0DGTFDOKC8G1KwdigN/giphy.gif)
 
-Similar to feature code, your test code needs to be put in a specific place for it to run successfully.
+### [Make Your Own FlashCards](https://frontend.turing.edu/projects/flash-cards.html)
+ Visit [this site](https://github.com/turingschool-examples/flashcards-starter).
 
-**Put all of your test files in the `test` directory.** As a convention, all test filenames should end with `-test.js`. For instance: `Round-test.js`.
+ On the top right corner of the page, click the **Fork** button.
 
-## Running Your Tests
+#### Setup
 
-Run your test suite using the command:
+Clone down the forked repo (from your GitHub). Since you don't want to name your project "flashcards-starter", you can use an optional argument when you run `git clone` (you replace the `[...]` with the terminal command arguments):
 
 ```bash
 npm test
 ```
 
 The test results will output to the terminal.
-
-
