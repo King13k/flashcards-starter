@@ -20,13 +20,18 @@ class Round {
     }
     this.turns++;
     this.currentCard = this.deck.cards[this.turns];
+
+  return  this.currentTurn.giveFeedBack();
+    // console.log('<<>>>',this.currentTurn.giveFeedBack())
   };
+
 
   calculatePercentCorrect() {
     return (this.turns - this.incorrectGuesses.length) / this.turns;
   };
 
   endRound() {
+    console.log(`** You answered ${this.calculatePercentCorrect() * 100}% of the questions correctly!`)
     return `** You answered ${this.calculatePercentCorrect() * 100}% of the questions correctly!`
   };
 
