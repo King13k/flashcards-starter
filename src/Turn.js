@@ -1,3 +1,5 @@
+let Card = require('./Card')
+
 class Turn {
   constructor(playerGuess, card) {
     this.playerGuess = playerGuess;
